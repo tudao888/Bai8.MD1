@@ -5,19 +5,26 @@
     <title>Title</title>
 </head>
 <body>
-<label>
-  What is the “official” name of JavaScript?
-</label> <br>
-<input type="text" id="dauvao">
-<button onclick="kiemtra()">Kiểm tra</button>
+<!--<label>-->
+<!--  What is the “official” name of JavaScript?-->
+<!--</label> <br>-->
+<!--<input type="text" id="dauvao">-->
+<!--<button onclick="kiemtra()">Kiểm tra</button>-->
+<!--<script>-->
+<!--  function kiemtra() {-->
+<!--    let dauvao1 = document.getElementById('dauvao').value;-->
+<!--   if (dauvao1=="ECMAScript") {-->
+<!--     alert("right");-->
+<!--   }-->
+<!--   else {alert("Didn’t know? ECMAScript!")}-->
+<!--  }-->
+<!--</script>-->
 <script>
-  function kiemtra() {
-    let dauvao1 = document.getElementById('dauvao').value;
-   if (dauvao1=="ECMAScript") {
-     alert("right");
-   }
-   else {alert("Didn’t know? ECMAScript!")}
+  let value = prompt('What is the "official" name of JavaScript?');
+  if (value == 'ECMAScript') {
+    alert('right');
   }
+  else {alert("You don't know? ECMAScript!")};
 </script>
 </body>
 </html>
